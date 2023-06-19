@@ -15884,4 +15884,25 @@ footer.footer-style6{
   background: #222;
 }
 
+.tc-single-post-creative-page .tc-main-post-style1 .tc-main-post-img{
+  height: auto;
+}
+.tc-single-post-creative-page .tc-main-post-style1 .tc-main-post-content h4.sub-title,
+.tc-single-post-creative-page .tc-main-post-style1 .tc-main-post-content .info-text{
+  width: 100%;
+}
+.tc-author-card .pic{
+  display: flex;
+  align-items: center;
+}
+.tc-author-card .pic .info{
+  width: 100%;
+}
+.headline-grafis a{
+  display: block;
+}
+.headline-grafis img{
+  width: 100%;
+}
+
 
