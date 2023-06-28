@@ -1167,7 +1167,7 @@ $(document).ready(function() {
         },
         breakpoints: {
             0: {
-                slidesPerView: 1,
+                slidesPerView: 2,
             },
             480: {
                 slidesPerView: 2,
@@ -1386,6 +1386,44 @@ $(document).ready(function() {
             delay: 6000,
         },
         loop: true,
+    });
+
+    // ------------ mikrografis-slider -----------
+    var swiper = new Swiper('.mikrografis-slider .swiper-container', {
+        // slidesPerView: 3,
+        spaceBetween: 30,
+        speed: 1000,
+        pagination: {
+            el: ".mikrografis-slider .swiper-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: '.mikrografis-slider .swiper-button-next',
+            prevEl: '.mikrografis-slider .swiper-button-prev',
+        },
+        mousewheel: false,
+        keyboard: true,
+        autoplay: {
+            delay: 4000,
+        },
+        loop: true,
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            480: {
+                slidesPerView: 2,
+            },
+            787: {
+                slidesPerView: 2,
+            },
+            991: {
+                slidesPerView: 3,
+            },
+            1200: {
+                slidesPerView: 3,
+            }
+        }
     });
 
     
