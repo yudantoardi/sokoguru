@@ -15914,7 +15914,6 @@ footer.footer-style6{
 
 .tc-header-slider2 .item{
   width: 100%;
-  height: 80vh;
   float: left;
   position: relative;
 }
@@ -16055,9 +16054,6 @@ footer.footer-style6{
   float: left;
 }
 
-.tc-header-slider2.agenda .item{
-  height: 60vh;
-}
 .tc-header-slider2.agenda{
   background: url(../img/sokoguru/bank/bg-agenda.jpg) no-repeat center fixed;
   background-size: cover;
@@ -16109,6 +16105,16 @@ footer.footer-style6{
 }
 .mikrografis-slider.agenda .item .content .meta-bot li{
   color: #fff;
+}
+
+.toc a:hover{
+  background: rgba(0,0,0,0.03);
+  color: blue;
+}
+
+.tc-header-slider2.agenda .slider-content{
+  height: auto;
+  padding-bottom: 0;
 }
 
 @media only screen and (max-width: 768px){
@@ -16322,6 +16328,20 @@ footer.footer-style6{
   }
   .tc-single-post-creative-page .tc-main-post-style1.post-agenda .tc-main-post-title .title{
     font-size: 24px;
+  }
+  
+  .tc-header-slider2.agenda .slider-content{
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .tc-header-slider2.agenda .slider-content .title{
+    margin-top: 0;
+  }
+  .tc-header-slider2.agenda .slider-content .meta-bot ul.d-flex{
+    justify-content: center;
   }
 }
 
