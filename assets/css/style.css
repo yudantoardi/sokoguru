@@ -16419,6 +16419,15 @@ footer.footer-style6{
   .tc-header-slider2.agenda .slider-content .meta-bot ul.d-flex{
     justify-content: center;
   }
+  .lp-text .big-text{
+    font-size: 48px;
+  }
+  .lp-text p{
+    font-size: 18px;
+  }
+  .lp-2-text{
+    padding: 100px 20px;
+  }
 }
 
 
