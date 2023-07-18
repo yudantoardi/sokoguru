@@ -16217,6 +16217,11 @@ footer.footer-style6{
   height: 48px;
   padding: 10px 20px;
 }
+.sg-input.sm{
+  height: 40px;
+  margin: 5px 0 5px 20px;
+  width: calc(100% - 20px);
+}
 .sg-label{
   width: 100%;
   float: left;
@@ -16282,6 +16287,17 @@ footer.footer-style6{
   float: left;
   color: #555;
   margin-top: 10px;
+}
+.tc-contact-form{
+  border-top: 1px solid #000;
+}
+
+.tc-about-history{
+  background: url(../img/data-3.jpg) no-repeat center;
+  background-size: cover;
+}
+.tc-404-page .tc-404-info{
+  padding-top: 0;
 }
 
 /*SIGNUP STEP FORM*/
