@@ -16192,6 +16192,274 @@ footer.footer-style6{
   margin-right: 5px;
 }
 
+/*FORMS*/
+.form-wrap{
+  padding: 50px 0 0;
+  border-top: 2px solid #212529;
+}
+.form-wrap figure{
+  margin-bottom: 0;
+}
+.form-wrap figure img{
+  width: 100%;
+}
+.sg-form{
+  width: 100%;
+  float: left;
+  padding: 0 80px;
+}
+.sg-input{
+  width: 100%;
+  float: left;
+  border: none;
+  border-bottom: 1px solid #000;
+  background: #f4f4f4;
+  height: 48px;
+  padding: 10px 20px;
+}
+.sg-label{
+  width: 100%;
+  float: left;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 5px;
+}
+.inp-group{
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+.sg-form p{
+  font-size: 14px;
+}
+.sg-button{
+  display: inline-block;
+  padding: 15px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  transition: all ease-out 0.3s;
+  -webkit-transition: all ease-out 0.3s;
+  -moz-transition: all ease-out 0.3s;
+  -ms-transition: all ease-out 0.3s;
+  -o-transition: all ease-out 0.3s;
+}
+.sg-button.primary{
+  background: #212529;
+  color: #fff;
+}
+.sg-button.primary:hover{
+  color: #EE1D23;
+}
+.sg-form a{
+  color: #EE1D23;
+}
+
+.user-type-card{
+  width: 100%;
+  float: left;
+  padding: 20px;
+  background: #f4f4f4;
+}
+.user-type-card i{
+  font-size: 48px;
+  margin-right: 10px;
+  color: #333;
+}
+.user-type-card span.title{
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+.user-type-card span.desc{
+  font-size: 14px;
+  width: 100%;
+  float: left;
+  color: #555;
+  margin-top: 10px;
+}
+
+/*SIGNUP STEP FORM*/
+#heading {
+  text-transform: uppercase;
+  color: var(--color-main);
+  font-weight: normal
+}
+
+#msform {
+  text-align: center;
+  position: relative;
+  margin-top: 20px
+}
+
+#msform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative
+}
+
+.form-card {
+  text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+  display: none
+}
+
+#msform .action-button {
+  width: 100px;
+  background: #333;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 0px 10px 5px;
+  float: right
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+  background-color: #111
+}
+
+#msform .action-button-previous {
+  width: 100px;
+  background: #616161;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px 10px 0px;
+  float: right
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+  background-color: #333;
+}
+
+.card {
+  z-index: 0;
+  border: none;
+  position: relative
+}
+
+.fs-title {
+  font-size: 25px;
+  color: var(--color-main);
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-align: left
+}
+
+.purple-text {
+  color: var(--color-main);
+  font-weight: normal
+}
+
+.steps {
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 10px;
+  font-weight: normal;
+  text-align: right
+}
+
+.fieldlabels {
+  color: gray;
+  text-align: left
+}
+
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: lightgrey
+}
+
+#progressbar .active {
+  color: var(--color-main)
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 15px;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-weight: 400
+}
+
+#progressbar #account:before {
+  content: "1"
+}
+
+#progressbar #personal:before {
+  content: "2"
+}
+
+#progressbar #payment:before {
+  content: "3"
+}
+
+#progressbar #confirm:before {
+  content: "4"
+}
+
+#progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  padding: 2px
+}
+
+#progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: var(--color-main)
+}
+
+.progress {
+  height: 20px
+}
+
+.progress-bar {
+  background-color: var(--color-main)
+}
+
+.fit-image {
+  width: 100%;
+  object-fit: cover
+}
 
 @media only screen and (max-width: 768px){
 
@@ -16427,6 +16695,16 @@ footer.footer-style6{
   }
   .lp-2-text{
     padding: 100px 20px;
+  }
+  .form-wrap{
+    padding: 50px 20px;
+  }
+  .sg-form{
+    padding: 0;
+  }
+  .form-wrap figure{
+    margin-bottom: 50px;
+    padding: 0 50px;
   }
 }
 
