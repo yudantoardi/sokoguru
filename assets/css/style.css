@@ -5116,8 +5116,8 @@ small.text {
   font-size: 25px;
 }
 .tc-post-grid-style6 .item .content h5.title {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 18px;
 }
 .tc-post-grid-style6 .item .content h4.title {
   font-size: 20px;
@@ -15923,6 +15923,10 @@ footer.footer-style6{
   width: 100%;
   top: 0;
   left: 0;
+  background: #000;
+}
+.tc-header-slider2 .item .img-cover img{
+  opacity: 0.5;
 }
 .tc-header-slider2 .slider-content {
   position: relative;
