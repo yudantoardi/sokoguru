@@ -3387,7 +3387,7 @@ small.text {
 .navbar.style-6 .dropdown:hover .dropdownMenu {
   opacity: 1;
   visibility: visible;
-  top: 85.5px;
+  top: 100%;
 }
 .navbar.style-6 .side-navbar {
   display: -webkit-box;
@@ -16513,7 +16513,7 @@ footer.footer-style6{
 .tc-widget-social-style6 .item a .la{
   position: relative;
 }
-.tc-widget-social-style6 .item a .la.la-linkedin::before{
+.tc-widget-social-style6 .item a i::before{
   content: "";
   width: 14px;
   height: 14px;
@@ -16526,11 +16526,11 @@ footer.footer-style6{
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
 }
-.tc-widget-social-style6 .item a .la.la-linkedin::before{
+.tc-widget-social-style6 .item a .la-linkedin::before{
   background: url(../img/sokoguru/linkedin-in.svg) no-repeat center;
   background-size: contain;
 }
-.tc-widget-social-style6 .item a .la.la-tiktok::before{
+.tc-widget-social-style6 .item a .la-tiktok::before{
   background: url(../img/sokoguru/tiktok.svg) no-repeat center;
   background-size: contain;
 }
@@ -16554,7 +16554,7 @@ footer.footer-style6{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.banner-14{
+.banner14{
   padding-bottom: 20px;
 }
 .tc-widget-videos-style6 p{
@@ -16590,6 +16590,18 @@ a.foot-logo{
 }
 .foot{
   padding: 30px 0;
+}
+.tc-trends-news-style6 .content strong{
+  margin-bottom: 10px;
+}
+.features-content p{
+  margin-bottom: 10px;
+}
+.navbar.style-6 .dropdown:hover .dropdownMenu{
+  top: 100%;
+}
+.tc-trends-news-slider6.tc-slider-style1 {
+  padding-bottom: 20px;
 }
 
 @media only screen and (min-width:769px) and (max-width: 1024px){
