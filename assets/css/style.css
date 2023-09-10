@@ -3338,7 +3338,7 @@ small.text {
 .navbar.style-6 .navbar-nav .nav-item .nav-link {
   position: relative;
   margin: 0;
-  padding: 30px 20px 30px 0;
+  padding: 10px 20px 10px 0;
   font-size: 14px;
   color: #000;
   text-transform: capitalize;
@@ -16500,6 +16500,57 @@ footer.footer-style6{
   width: auto;
   height: 100px;
   object-fit: contain;
+}
+
+.tc-main-post-img .caption{
+  color: #777;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.tc-main-post-content p a {
+  color: #0078FF;
+}
+.tc-widget-social-style6 .item a .la{
+  position: relative;
+}
+.tc-widget-social-style6 .item a .la.la-linkedin::before{
+  content: "";
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+.tc-widget-social-style6 .item a .la.la-linkedin::before{
+  background: url(../img/sokoguru/linkedin-in.svg) no-repeat center;
+  background-size: contain;
+}
+.tc-widget-social-style6 .item a .la.la-tiktok::before{
+  background: url(../img/sokoguru/tiktok.svg) no-repeat center;
+  background-size: contain;
+}
+
+.navbar-container.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px){
+  .navbar-container,
+  .main,
+  .footer-style6{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 }
 
 @media only screen and (max-width: 768px){
