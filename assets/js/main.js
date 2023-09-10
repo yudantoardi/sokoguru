@@ -165,6 +165,18 @@ $(document).ready(function() {
 // ------------ swiper sliders -----------
 $(document).ready(function() {
 
+    var yourNavigation = $(".navbar-container");
+    stickyDiv = "sticky";
+    yourHeader = 350;
+
+    $(window).scroll(function() {
+        if( $(this).scrollTop() > yourHeader ) {
+            yourNavigation.addClass(stickyDiv);
+        } else {
+            yourNavigation.removeClass(stickyDiv);
+        }
+    });
+
     // ------------ breaking-news slider -----------
     var swiper = new Swiper('.tc-breaking-news-style1 .swiper-container', {
         slidesPerView: 3,
