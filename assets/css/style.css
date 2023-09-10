@@ -16544,6 +16544,54 @@ footer.footer-style6{
   border-bottom: 1px solid #dedede;
 }
 
+.banner13{
+  padding: 10px 0;
+}
+.features-content{
+  padding-bottom: 20px;
+}
+.tags-posts{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.banner-14{
+  padding-bottom: 20px;
+}
+.tc-widget-videos-style6 p{
+  margin-bottom: 10px;
+}
+.post-list .item{
+  padding: 15px 0;
+}
+.banner16{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-style6{
+  padding-top: 30px;
+}
+.footer-style6 .foot-tilte{
+  margin-bottom: 20px;
+}
+.footer-style6 .link-group .f-link{
+  margin-bottom: 5px;
+}
+a.foot-logo{
+  margin-bottom: 20px;
+}
+.social-links{
+  margin-top: 30px;
+}
+.footer-style6 .contact-info li{
+  font-size: 14px;
+}
+.footer-style6 .text{
+  font-size: 14px;
+}
+.foot{
+  padding: 30px 0;
+}
+
 @media only screen and (min-width:769px) and (max-width: 1024px){
   .navbar-container,
   .main,
