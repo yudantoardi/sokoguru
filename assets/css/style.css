@@ -16513,8 +16513,8 @@ footer.footer-style6{
 .tc-widget-social-style6 .item a i{
   position: relative;
 }
-.tc-widget-social-style6 .item a .la-linkedin::before,
-.tc-widget-social-style6 .item a .la-tiktok::before
+.la-linkedin::before,
+.la-tiktok::before
 {
   content: "";
   width: 14px;
@@ -16528,15 +16528,25 @@ footer.footer-style6{
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
 }
-.tc-widget-social-style6 .item a .la-linkedin::before{
+.la-linkedin::before{
   background: url(../img/sokoguru/linkedin-in.svg) no-repeat center;
   background-size: contain;
 }
-.tc-widget-social-style6 .item a .la-tiktok::before{
+.la-tiktok::before{
   background: url(../img/sokoguru/tiktok.svg) no-repeat center;
   background-size: contain;
 }
-
+.social-links .la-linkedin::before{
+  background: url(../img/sokoguru/linkedin-in_white.svg) no-repeat center;
+  background-size: contain;
+}
+.social-links .la-tiktok::before{
+  background: url(../img/sokoguru/tiktok_white.svg) no-repeat center;
+  background-size: contain;
+}
+.social-links{
+  display: flex;
+}
 .navbar-container.sticky{
   position: fixed;
   top: 0;
