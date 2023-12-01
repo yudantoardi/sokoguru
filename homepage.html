@@ -731,7 +731,7 @@
         <section>
             <div class="container">
                 <div class="tags-posts pt-60 pb-60 border-2 border-top brd-gray">
-                    <div class="row">
+                    <div class="row" data-sticky-container>
                         <div class="col-lg-9">
                             <!-- ====== start banner14 ====== -->
                             <section class="banner14 pb-60">
@@ -1104,7 +1104,7 @@
                                 </div>
                                 <!-- ====== end banner15 ====== -->
                                 <!-- widget-event -->
-                                <div class="tc-widget-videos-style6">
+                                <div class="tc-widget-videos-style6" data-sticky data-margin-top="120">
                                     <p class="fw-bold text-uppercase fsz-14px mb-30 border-2 border-top border-dark pt-15"> Events </p>
                                     <div class="event-card">
                                         <a href="#">
@@ -1509,7 +1509,17 @@
     <script src="assets/js/lib/back-to-top.js"></script>
     <script src="assets/js/lib/mixitup.min.js"></script>
     <script src="assets/js/lib/parallaxie.js"></script>
+    
+    <script src="assets/js/sticky.js"></script>
+
     <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            var sticky = new Sticky('[data-sticky]');
+        });
+       
+    </script>
 
 </body>
 

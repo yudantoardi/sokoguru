@@ -16872,4 +16872,33 @@ a.foot-logo{
   }
 }
 
-
+/*UPDATE 30 NOV*/
+.footer-style6{
+  padding-top: 10px;
+}
+.footer-style6 .contact-info li{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.link-group li,
+.footer-style6 .text,
+.footer .fsz-14px {
+  font-size: 12px !important;
+}
+.footer-style6 .foot-tilte{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+a.foot-logo{
+  margin-bottom: 10px;
+}
+.social-links{
+  margin-top: 20px;
+}
+.foot{
+  padding: 10px 0;
+}
+.footer-style6 .social-links a{
+  width: 36px;
+  height: 36px;
+}
