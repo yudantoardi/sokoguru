@@ -16902,3 +16902,36 @@ a.foot-logo{
   width: 36px;
   height: 36px;
 }
+.banner15{
+  width: 100%;
+  float: left;
+}
+
+/*UPDATE 2 DEC*/
+@media only screen and (max-width: 991px){
+  .footer-style6 .row .col-lg-2{
+    width: 20%;
+  }
+  .footer-style6 .row .col-lg-3{
+    width: 30%;
+    padding-left: 60px;
+  }
+  .footer-style6 .mt-5{
+    margin-top: 20px !important;
+  }
+}
+@media only screen and (max-width: 767px){
+  .footer-style6 .row .col-lg-2{
+    width: 100%;
+  }
+  .footer-style6 .row .col-lg-3{
+    width: 100%;
+    padding-left: 0;
+  }
+  .footer-style6 .mt-5{
+    margin-top: 20px !important;
+  }
+  .footer-style6 .row div:nth-child(3) h6{
+    display: none;
+  }
+}
