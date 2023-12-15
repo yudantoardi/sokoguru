@@ -16951,3 +16951,7 @@ a.foot-logo{
   padding-right: 0 !important;
   text-align: center;
 }
+.tc-post-list-style2 .items .item:last-of-type{
+  padding-bottom: 20px;
+  border-bottom: none;
+}
