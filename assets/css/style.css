@@ -16945,3 +16945,9 @@ a.foot-logo{
   height: 0;
   padding-top: 31% !important;
 }
+.banner14 .col-lg-12,
+.banner16 .col-lg-12{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center;
+}
