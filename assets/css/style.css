@@ -16955,3 +16955,79 @@ a.foot-logo{
   padding-bottom: 20px;
   border-bottom: none;
 }
+
+/*23 Januari 2024*/
+.post-list.pencarian .item:first-child,
+.post-list.pencarian .item:nth-child(2),
+.post-list.pencarian .item:nth-child(5n+1),
+.post-list.pencarian .item:nth-child(5n+2){
+  width: 100%;
+  float: left;
+  padding: 15px 0;
+  border-bottom: 1px solid #d9d9d9;
+  border-right: none;
+}
+.post-list.pencarian .item:first-child .pic,
+.post-list.pencarian .item:nth-child(2) .pic,
+.post-list.pencarian .item:nth-child(5n+1) .pic,
+.post-list.pencarian .item:nth-child(5n+2) .pic{
+  width: 270px;
+  float: left;
+}
+.post-list.pencarian .item:first-child .content,
+.post-list.pencarian .item:nth-child(2) .content,
+.post-list.pencarian .item:nth-child(5n+1) .content,
+.post-list.pencarian .item:nth-child(5n+2) .content{
+  width: calc(100% - 270px);
+  float: left;
+  padding-left: 30px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 768px){
+  .post-list.pencarian .item:first-child .pic,
+.post-list.pencarian .item:nth-child(2) .pic,
+.post-list.pencarian .item:nth-child(5n+1) .pic,
+.post-list.pencarian .item:nth-child(5n+2) .pic{
+    width: 80px;
+  }
+  .post-list.pencarian .item:first-child .content,
+.post-list.pencarian .item:nth-child(2) .content,
+.post-list.pencarian .item:nth-child(5n+1) .content,
+.post-list.pencarian .item:nth-child(5n+2) .content{
+    width: calc(100% - 80px);
+    padding-left: 15px;
+  }
+  .post-list.pencarian .item:first-child .content h3,
+.post-list.pencarian .item:nth-child(2) .content h3,
+.post-list.pencarian .item:nth-child(5n+1) .content h3,
+.post-list.pencarian .item:nth-child(5n+2) .content h3{
+    font-size: 16px;
+    margin-bottom: 10px !important;
+    margin-top: -4px;
+  }
+  .post-list.pencarian .item:first-child .text,
+.post-list.pencarian .item:nth-child(2) .text,
+.post-list.pencarian .item:nth-child(5n+1) .text,
+.post-list.pencarian .item:nth-child(5n+2) .text{
+    display: none;
+  }
+  .post-list.pencarian .item:first-child .content .meta-bot.mt-40,
+.post-list.pencarian .item:nth-child(2) .content .meta-bot.mt-40,
+.post-list.pencarian .item:nth-child(5n+1) .content .meta-bot.mt-40,
+.post-list.pencarian .item:nth-child(5n+2) .content .meta-bot.mt-40{
+    margin-top: 0 !important;
+  }
+  .post-list.pencarian .item:first-child .content .meta-bot a,
+.post-list.pencarian .item:nth-child(2) .content .meta-bot a,
+.post-list.pencarian .item:nth-child(5n+1) .content .meta-bot a,
+.post-list.pencarian .item:nth-child(5n+2) .content .meta-bot a{
+    font-size: 10px !important;
+  }
+  .post-list.pencarian .item:first-child,
+.post-list.pencarian .item:nth-child(2),
+.post-list.pencarian .item:nth-child(5n+1),
+.post-list.pencarian .item:nth-child(5n+2){
+    padding: 20px 0;
+  }
+}
